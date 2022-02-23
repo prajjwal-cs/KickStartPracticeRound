@@ -5,8 +5,6 @@ Date: 23-02-2022
 Time: 18:37
 File: SampleProblem.java */
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class SampleProblem {
@@ -23,6 +21,7 @@ public class SampleProblem {
         }
         return sum;
     }
+
     /**
      * Given an array of integers, find the maximum number of candies that can be given to each kid
      */
