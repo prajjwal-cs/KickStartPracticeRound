@@ -42,6 +42,8 @@ public class SampleProblem {
             int sumOfAllCandies = sumOfArray(candies);
             int maximumNumberOfCandiesForEachKid = (sumOfAllCandies / numberOfKids);
             int remainingCandies = sumOfAllCandies - (maximumNumberOfCandiesForEachKid * numberOfKids);
+
+            System.out.println(remainingCandies);
         }
     }
 }
